@@ -6,20 +6,20 @@
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br/>
 
-<h2>Prerequisites</h2>
+<h2>⚠️ Prerequisites</h2>
 
 - [Creating Virtual Machines in the Cloud](https://github.com/joshuaheck1/VM-creation)
 - [osTicket: Prerequisites and Installation](https://github.com/joshuaheck1/osticket-prereqs)
 - [osTicket: Post-Installation Configuration](https://github.com/joshuaheck1/post-install-config)
 
-<h2>Environments and Technologies Used</h2>
+<h2>💻 Environments and Technologies</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Windows App (macOS)
 - Internet Information Services (IIS)
 
-<h2>Operating Systems Used</h2>
+<h2>👨‍💻 Operating Systems</h2>
 
 - macOS Sequoia
 - Windows 10 (21H2)
@@ -31,7 +31,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 - Working the Issue
 - Resolution
 
-<h2>Lifecycle Stages</h2>
+<h2>♻️ Lifecycle Stages</h2>
 
 <p>
 <img width="750" alt="TL1" src="https://github.com/user-attachments/assets/f29c9413-e49c-466e-908f-f4db0a209044" />
