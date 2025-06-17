@@ -4,13 +4,14 @@
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br/>
+This tutorial goes over the lifecycle of a ticket in a ticketing system from intake to resolution within osTicket.
+<br/>
 
 <h2>⚠️ Prerequisites</h2>
 
-- [Creating Virtual Machines in the Cloud](https://github.com/joshuaheck1/VM-creation)
-- [osTicket: Prerequisites and Installation](https://github.com/joshuaheck1/osticket-prereqs)
-- [osTicket: Post-Installation Configuration](https://github.com/joshuaheck1/post-install-config)
+- [Creating Virtual Machines in the Cloud](https://github.com/ajowyit/creating-virtual-machines)
+- [osTicket: Prerequisites and Installation](https://github.com/ajowyit/osticket-prereqs)
+- [osTicket: Post-Installation Configuration](https://github.com/ajowyit/osticket-post-install-config)
 
 <h2>💻 Environments and Technologies</h2>
 
@@ -34,12 +35,16 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <h2>♻️ Lifecycle Stages</h2>
 
 <p>
-<img width="750" alt="TL1" src="https://github.com/user-attachments/assets/f29c9413-e49c-466e-908f-f4db0a209044" />
+<img width="1030" alt="Screenshot 2025-06-16 at 6 23 49 PM" src="https://github.com/user-attachments/assets/b343a831-d2ef-4f39-89f9-a9fad8be0b24" />
 </p>
 
 <p>- Before we get started with creating and working tickets today, there was an issue discovered within osTicket about 30 mintues ago. We had a couple of clients call and ask for an update concerning some Help Desk Tickets they submitted. After several attempts, our Lead Agent was unable to locate the tickets. Then, the Lead Agent submitted a "Test" ticket via the Support Center portal and was unable to locate the "Test" ticket as well. Tickets are being created successfully but our Agents are not able to see them. The Help Desk Manager has exclated the issue to our Admin Team. Lets go solve this issue.    </p>
-<p>- Go to the Admin / Agent Portal for osTicket - http://localhost/osTicket/scp/login.php </p>
-<p>- Log in as an Admin. Username: "adminuser" | Password: Password1</p>
+<p>
+  - Go to the Admin / Agent Portal for osTicket. (http://localhost/osTicket/scp/login.php)
+</p>
+<p>
+  - Log in as an Admin. Username: "adminuser" | Password: Password1
+</p>
 <br/>
 
 <table>
@@ -53,8 +58,12 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
   </tr>
 </table>
 <p>- Upon further investigation and working with Osticket Support, we discovered that a recent update caused a bug with a preset Department within osTicket. The bug is causing the tickets to be sent to the Maintenance Department regardless of the configurations. We will delete this department to get operations back to normal while osTicket works on a patch. </p>
-<p>- From the Agent Panel, click -> Agents -> Departments. </p>
-<p>- Check the box by Manitenance -> click the More dropdown -> click Delete.</p>
+<p>
+  - From the Admin Panel, click -> Agents -> Departments. 
+</p>
+<p>
+  - Check the box by Manitenance. Click the More dropdown arrow. Click Delete from the dropdown menu.
+</p>
 
 <table>
   <tr>
@@ -66,7 +75,9 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
     </td>
   </tr>
 </table>
-<p>- Click Yes, Do it! </p>
+<p>
+  - Click "Yes, Do it!".
+</p>
 <p>- The Maintenance Department has successfully been deleted. We had our Agents log out / log back in to osTicket. They are reporting that the tickets are now visible and being routed to the correct Departments. That is a Win! Now, we can get to creating and working tickets. 😎</p>
 <br/>
 
@@ -80,10 +91,17 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
     </td>
   </tr>
 </table>
-<p>- Open the Support Center. (User portal - http://localhost/osTicket) </p>
-<p>- Click "Open a New Ticket" and create the ticket as Karen.</p>
-<p>- Enter the folllowing - Email Address: karen@lognpacific.com | Full Name: Karen | Help Topic: Report a Problem.</p>
-<p>- Fill out Issue Summary as you see in Figure 7. Scroll down and click Create Ticket.</p>
+<p>
+  - Open the Support Center. In the browser navigate to http://localhost/osTicket.
+</p>
+<p>-
+  Click the blue button that says "Open a New Ticket". Create a ticket as Karen.
+</p>
+<p>
+  - Enter the folllowing - Email Address: karen@lognpacific.com | Full Name: Karen | Help Topic: Report a Problem.
+</p>
+<p>- Fill out Issue Summary. In the smaller text field for the heading type in, "Entire mobile/online banking system is down". In the larger text field for the summary type in "My employees are reporting that users are not longer able to access the online banking portal. The ones who can occassionally access it, cannot log in.". Scroll down and click "Create Ticket".
+</p>
 
 <table>
   <tr>
