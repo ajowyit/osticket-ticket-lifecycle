@@ -50,10 +50,10 @@ This tutorial goes over the lifecycle of a ticket in a ticketing system from int
 <table>
   <tr>
     <td>
-      <img width="1000" alt="TL2" src="https://github.com/user-attachments/assets/d8c57ea8-dccc-4035-aa1f-a52999a76c45" />
+      <img width="1029" alt="Screenshot 2025-06-16 at 6 31 42 PM" src="https://github.com/user-attachments/assets/1b8c58eb-e9e6-4c53-9007-c0053974d1ef" />
     </td>
     <td>
-      <img width="1000" alt="TL3" src="https://github.com/user-attachments/assets/c3158223-20fb-4fc7-a287-3298f01b23c2" />
+      <img width="1030" alt="Screenshot 2025-06-16 at 6 32 29 PM" src="https://github.com/user-attachments/assets/68ad7256-7374-4aa6-bfd5-20c8ea54d33e" />
     </td>
   </tr>
 </table>
