@@ -1,6 +1,5 @@
 <p align="center">
-<img width="900" alt="Screenshot 2025-04-27 at 7 28 04 PM" src="https://github.com/user-attachments/assets/e350f934-ca85-4e5e-9937-6eae6811f8c5" />
-
+<img width="972" alt="Screenshot 2025-06-17 at 6 17 20 PM" src="https://github.com/user-attachments/assets/a01d23ba-2073-4ea3-ab0a-71597fd1bd8e" />
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
