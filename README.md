@@ -38,7 +38,9 @@ This tutorial goes over the lifecycle of a ticket in a ticketing system from int
 <img width="1030" alt="Screenshot 2025-06-16 at 6 23 49 PM" src="https://github.com/user-attachments/assets/b343a831-d2ef-4f39-89f9-a9fad8be0b24" />
 </p>
 
-<p>- Before we get started with creating and working tickets today, there was an issue discovered within osTicket about 30 mintues ago. We had a couple of clients call and ask for an update concerning some Help Desk Tickets they submitted. After several attempts, our Lead Agent was unable to locate the tickets. Then, the Lead Agent submitted a "Test" ticket via the Support Center portal and was unable to locate the "Test" ticket as well. Tickets are being created successfully but our Agents are not able to see them. The Help Desk Manager has exclated the issue to our Admin Team. Lets go solve this issue.    </p>
+<p>
+  - We have discovered an issuenwithin osTicket about 30 mintues ago! A few clients called and asked for an update concerning some Help Desk Tickets they submitted. After many attempts, our Lead Agent was unable to locate the tickets. Afterwards, the Lead Agent submitted a "Test" ticket via the Support Center portal and was unable to locate the "Test" ticket as well! Tickets are being created successfully but our Agents are unable to see them. The Help Desk Manager has exclated the issue to our Admin Team. Lets go solve this issue!    
+</p>
 <p>
   - Go to the Admin / Agent Portal for osTicket. (http://localhost/osTicket/scp/login.php)
 </p>
@@ -57,7 +59,9 @@ This tutorial goes over the lifecycle of a ticket in a ticketing system from int
     </td>
   </tr>
 </table>
-<p>- Upon further investigation and working with Osticket Support, we discovered that a recent update caused a bug with a preset Department within osTicket. The bug is causing the tickets to be sent to the Maintenance Department regardless of the configurations. We will delete this department to get operations back to normal while osTicket works on a patch. </p>
+<p>
+  - Upon further investigation, we discovered that a recent update caused a bug with a preset Department within osTicket. The bug is causing the tickets to be sent to the Maintenance Department regardless of the configurations. We will delete this department to get operations back to normal while osTicket works on a patch! 
+</p>
 <p>
   - From the Admin Panel, click -> Agents -> Departments. 
 </p>
@@ -78,7 +82,9 @@ This tutorial goes over the lifecycle of a ticket in a ticketing system from int
 <p>
   - Click "Yes, Do it!".
 </p>
-<p>- The Maintenance Department has successfully been deleted. We had our Agents log out / log back in to osTicket. They are reporting that the tickets are now visible and being routed to the correct Departments. That is a Win! Now, we can get to creating and working tickets. 😎</p>
+<p>
+  - The Maintenance Department has successfully been deleted! We had our Agents log out and log back in to osTicket. They are reporting that the tickets are now visible and being routed to the correct Departments! Awesome! Now, we can get to creating and working tickets!
+</p>
 <br/>
 
 <table>
@@ -94,13 +100,14 @@ This tutorial goes over the lifecycle of a ticket in a ticketing system from int
 <p>
   - Open the Support Center. In the browser navigate to http://localhost/osTicket.
 </p>
-<p>-
-  Click the blue button that says "Open a New Ticket". Create a ticket as Karen.
+<p>
+  - Click the blue button that says "Open a New Ticket". Create a ticket as Karen.
 </p>
 <p>
   - Enter the folllowing - Email Address: karen@lognpacific.com | Full Name: Karen | Help Topic: Report a Problem.
 </p>
-<p>- Fill out Issue Summary. In the smaller text field for the heading type in, "Entire mobile/online banking system is down". In the larger text field for the summary type in "My employees are reporting that users are not longer able to access the online banking portal. The ones who can occassionally access it, cannot log in.". Scroll down and click "Create Ticket".
+<p>
+  - Fill out Issue Summary. In the smaller text field for the heading type in, "Entire mobile/online banking system is down". In the larger text field for the summary type in "My employees are reporting that users are not longer able to access the online banking portal. The ones who can occassionally access it, cannot log in.". Scroll down and click "Create Ticket".
 </p>
 
 <table>
@@ -216,94 +223,141 @@ This tutorial goes over the lifecycle of a ticket in a ticketing system from int
 <table>
   <tr>
     <td>
-      <img width="900" alt="TL18" src="https://github.com/user-attachments/assets/f7b30731-f58a-453e-81dc-01454d65bfd0" />
+     <img width="1002" alt="Screenshot 2025-06-17 at 5 33 19 PM" src="https://github.com/user-attachments/assets/5d7a8373-4a9f-406d-addb-0289cc628450" />
     </td>
     <td>
-      <img width="1000" alt="TL19" src="https://github.com/user-attachments/assets/168d7688-6699-4601-b78a-daa715207d02" />
+      <img width="998" alt="Screenshot 2025-06-17 at 5 34 34 PM" src="https://github.com/user-attachments/assets/5a7b9f50-cb15-44ff-951c-2e7489b893a3" />
     </td>
   </tr>
 </table>
 
-<p>- Log John out and log in to the Agent Portal as Jane Doe. Username: jane_doe | Password: Password1</p>
-<p>- We will work and resolve this ticket as Jan Doe moving forward. </p>
-<p>- John assigned the ticket to Online Banking and Jane is on that team. Open the ticket.</p>
+<p>
+  - Log out of John Dow and log in to the portal as Jane Doe. Username: jane_doe | Password: Password1
+</p>
+<p>
+  - We are going to work and resolve this ticket as Jane Doe moving forward. 
+</p>
+<p>
+  - John assigned the ticket to Online Banking.Jane is on that team. Open the ticket by clicking on the subject.
+</p>
+<br/>
+
+<table>
+  <tr>
+    <td>
+     <img width="998" alt="Screenshot 2025-06-17 at 5 36 23 PM" src="https://github.com/user-attachments/assets/3c4738f5-8f91-4db5-abe1-9dde22715325" />
+    </td>
+    <td>
+      <img width="1000" alt="Screenshot 2025-06-17 at 5 37 13 PM" src="https://github.com/user-attachments/assets/68759718-bad7-4d4b-8ebc-f5e6508a369d" />
+    </td>
+  </tr>
+</table>
+
+<p>
+  - Assign the ticket to Jane to reflect which Agent will be working the ticket. Pretend that Online Banking has more then one Agent.</p> 
+<p>
+  - Click "Online Banking" next to "Assigned To". When the window pops up, select "Jane Doe" for "Assignee", write a comment in the text field and then click "Assign".
+</p>
+<p>
+  - Having the ticket assigned to a specific Agent will help with tracking. 
+</p>
 <br/>
 
 <p>
-<img width="750" alt="TL20" src="https://github.com/user-attachments/assets/8e5c64d8-6f0f-459e-8da7-5c7a36a6183a" />
+  <img width="1000" alt="Screenshot 2025-06-17 at 5 45 47 PM" src="https://github.com/user-attachments/assets/0a4df39d-6b51-4939-82d9-cc6e8cbffcea" />
 </p>
 
-<p>- Assign the ticket to Jane to reflect which Agent will be working the ticket. Pretend that Online Banking has more then one Agent.</p> 
-<p>- Having the ticket assigned to a specific Agent will help with tracking. </p>
+<p>
+  - We should see a confirmation saying that the ticket was assigned to Jane Doe successfully. 
+</p>
+<p>
+  - Also look at the "Assigned To" section of the ticket.
+</p>
+<p>
+  - It should show that the ticket is assigned to Jane Doe of the Online Banking team.
+</p>
+<br/>
+
+<p>
+  <img width="994" alt="Screenshot 2025-06-17 at 5 48 38 PM" src="https://github.com/user-attachments/assets/ff3fa143-a1a1-4535-9416-e9e2d7be76b4" />
+</p>
+<table>
+  <tr>
+    <td>
+      <img width="996" alt="Screenshot 2025-06-17 at 5 59 00 PM" src="https://github.com/user-attachments/assets/fe8ca808-baa4-4b55-a7f4-342c00f94017" />
+    </td>
+    <td>
+      <img width="999" alt="Screenshot 2025-06-17 at 6 02 02 PM" src="https://github.com/user-attachments/assets/d86972bb-bd0f-4e1a-a93a-b59c04d35764" />
+    </td>
+  </tr>
+</table>
+
+<p>
+  - Next, we'll send an update to Karen about the ticket she submitted. Scroll down and be on the Post Reply tab. Click Post Reply if you are not already on it.
+</p>
+<p>
+  - Type in a response to her saying that you suspect the problem have to do with the recent updates. Click "Post Reply".
+</p>
+<p>
+  - Finally, let's notify Karen that we determined a cause for the issue, it has been addressed, and online banking is working again. Again, type in a response and then click "Post Reply". 
+</p>
+
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="TL21" src="https://github.com/user-attachments/assets/55c991a0-5edc-46c3-a49d-8146eb9f8902" />
+      <img width="997" alt="Screenshot 2025-06-17 at 6 06 07 PM" src="https://github.com/user-attachments/assets/bf0fa993-47ad-4174-a27d-bdf2d4ae0760" />
     </td>
     <td>
-      <img width="1000" alt="TL22" src="https://github.com/user-attachments/assets/719982a0-e45a-4d58-b908-9a83014025bc" />
+      <img width="995" alt="Screenshot 2025-06-17 at 6 08 02 PM" src="https://github.com/user-attachments/assets/deb9df1b-7347-4dc5-84af-d39735155c02" />
     </td>
   </tr>
 </table>
 
-<p>- Select "Jane Doe" as Assignee and enter comment of the change. Click Assign.</p>
-<p>- Now, look at the "Assigned To" section of the ticket.</p>
-<p>- It shows the ticket is assigned to Jane Doe of the Online Banking team.</p>
+<p>
+  - Scroll up and observe all of Jane's respones in the Ticket Thread.
+</p>
+<p>
+  - Now that the issue is fixed and the end user has been updated, lets close the ticket. 
+</p>
+<p>
+  - Click Status and select Resolved.
+</p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="TL23" src="https://github.com/user-attachments/assets/58008400-3562-455d-aed2-f3c2050ea108" />
+      <img width="652" alt="Screenshot 2025-06-17 at 6 08 44 PM" src="https://github.com/user-attachments/assets/62a88605-6e5c-406d-89f3-f8ed3fd99e8c" />
     </td>
     <td>
-      <img width="1000" alt="TL24" src="https://github.com/user-attachments/assets/d883f2e7-d0ea-4646-aa38-6c10932b137b" />
+      <img width="1000" alt="Screenshot 2025-06-17 at 6 09 35 PM" src="https://github.com/user-attachments/assets/727c322d-a164-4729-a2ce-24f66ce4ab78" />
+
     </td>
   </tr>
 </table>
 
-<p>- Next, we'll send an update to Karen concerning the ticket she submitted. Click Post Reply. See Figure 22</p>
-<p>- Now, lets notify Karen that we determined a cause for the issue, it has been addressed, and online banking is working again. See Figure 23 </p>
-<p>- Click Post.</p>
-<br/>
-
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="TL25" src="https://github.com/user-attachments/assets/f3fe340b-626e-4254-9786-d3dca29c44ff" />
-    </td>
-    <td>
-      <img width="1000" alt="TL26" src="https://github.com/user-attachments/assets/a0722cec-a764-467f-a1e7-91549430cd2b" />
-    </td>
-  </tr>
-</table>
-
-<p>- Figure 24 shows us how osTicket records Jane's respones in the Ticket Thread as well.</p>
-<p>- Now that the issue has been fixed and the end user has been updated, lets close out the ticket.  </p>
-<p>- Click Status and select Resolved.</p>
-<br/>
-
-<table>
-  <tr>
-    <td>
-      <img width="900" alt="TL27" src="https://github.com/user-attachments/assets/ff775d52-483e-4c1d-949e-ce018893de56" />
-    </td>
-    <td>
-      <img width="1000" alt="TL28" src="https://github.com/user-attachments/assets/18a9c367-3e2a-4531-9249-708f78f33431" />
-    </td>
-  </tr>
-</table>
-
-<p>- In the pop-up, change the Status to Resolved. Comment the change and click Close.</p>
-<p>- Ticket #206084 has been resolved. </p> 
-<p>- You have successfully created, worked, and resolved a Help Desk ticket within osTicket! </p>
+<p>
+  - When the window pops up, change the Status to Resolved. You can comment on the change and then click "Close".
+</p>
+<p>
+  - The ticket has been resolved! You should see a confirmation saying so. 
+</p> 
+<p>
+  - Congrats! You have successfully created, worked, and resolved a Help Desk ticket within osTicket! 
+</p>
 <br/>
 
 <h2>Conclusion</h2>
 
-<p>This concludes our project. We have successfully navigated through the life cycle of a Help Desk ticket within osTicket. I recommend taking the time to play around in osTicket by creating and working different tickets. Use your imagination and have fun being your own Help Desk! Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one! 😎      
+<p>This concludes our project. We have successfully navigated through the life cycle of a Help Desk ticket within osTicket. This project successfully demonstrated the end-to-end lifecycle of a Help Desk ticket using osTicket, from creation to resolution. Through this hands-on experience, we explored key aspects of ticketing systems, including:
+✔ Ticket submission & categorization
+✔ Workflow management (assignment, prioritization, SLA compliance)
+✔ Resolution & closure processes
+</p>
+<p>
+I recommend taking the time to play around in osTicket by creating and working different tickets. Use your imagination and have fun being your own Help Desk! Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one!
 </p>
 <br/>
 
