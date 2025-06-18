@@ -351,10 +351,7 @@ This tutorial goes over the lifecycle of a ticket in a ticketing system from int
 
 <h2>Conclusion</h2>
 
-<p>This concludes our project. We have successfully navigated through the life cycle of a Help Desk ticket within osTicket. This project successfully demonstrated the end-to-end lifecycle of a Help Desk ticket using osTicket, from creation to resolution. Through this hands-on experience, we explored key aspects of ticketing systems, including:
-✔ Ticket submission & categorization
-✔ Workflow management (assignment, prioritization, SLA compliance)
-✔ Resolution & closure processes
+<p>This concludes our project. We have successfully navigated through the life cycle of a Help Desk ticket within osTicket. This project successfully demonstrated the end-to-end lifecycle of a Help Desk ticket using osTicket, from creation to resolution. Through this hands-on experience, we explored key aspects of ticketing systems, including ticket submission & categorization, workflow management (assignment, prioritization, SLA compliance), and resolution & closure processes
 </p>
 <p>
 I recommend taking the time to play around in osTicket by creating and working different tickets. Use your imagination and have fun being your own Help Desk! Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one!
