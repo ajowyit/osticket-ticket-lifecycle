@@ -68,10 +68,10 @@ This tutorial goes over the lifecycle of a ticket in a ticketing system from int
 <table>
   <tr>
     <td>
-      <img width="1000" alt="TL4" src="https://github.com/user-attachments/assets/e520d2a9-1a31-4592-9ef8-1024d6406d63" />
+      <img width="1023" alt="Screenshot 2025-06-16 at 6 34 42 PM" src="https://github.com/user-attachments/assets/0752e322-336d-43b5-ae75-ab8256bff6b4" />
     </td>
     <td>
-      <img width="1000" alt="TL5" src="https://github.com/user-attachments/assets/28aab28a-25e8-4176-8a90-96aa0430b7c0" />
+      <img width="1030" alt="Screenshot 2025-06-16 at 6 37 14 PM" src="https://github.com/user-attachments/assets/b282dfff-c3dc-4c01-9b56-3aa5523ef2ea" />
     </td>
   </tr>
 </table>
@@ -84,10 +84,10 @@ This tutorial goes over the lifecycle of a ticket in a ticketing system from int
 <table>
   <tr>
     <td>
-      <img width="1000" alt="TL6" src="https://github.com/user-attachments/assets/6b35cc6e-519d-4ec3-9f75-20c3f655d173" />
+      <img width="1034" alt="Screenshot 2025-06-16 at 6 46 02 PM" src="https://github.com/user-attachments/assets/1c0071f7-54f2-475e-9098-f6cce7edb1af" />
     </td>
     <td>
-      <img width="1000" alt="TL7" src="https://github.com/user-attachments/assets/52233b24-a17c-47c3-a143-686a130ac711" />
+      <img width="1021" alt="Screenshot 2025-06-16 at 6 51 06 PM" src="https://github.com/user-attachments/assets/9e8a7b16-edf1-4ea7-8143-d28f5cf6d677" />
     </td>
   </tr>
 </table>
@@ -106,70 +106,111 @@ This tutorial goes over the lifecycle of a ticket in a ticketing system from int
 <table>
   <tr>
     <td>
-      <img width="1000" alt="TL8" src="https://github.com/user-attachments/assets/15281ad1-cbff-4c2b-8aeb-cc25c23a9acf" />
+      <img width="962" alt="Screenshot 2025-06-17 at 4 24 29 PM" src="https://github.com/user-attachments/assets/26c818ed-e6ca-4627-8861-3464b233efcb" /> 
     </td>
     <td>
-      <img width="1000" alt=<"TL9" src="https://github.com/user-attachments/assets/73284ce1-d5dc-4285-a4ca-50c72a8c0f3f" />
+      <img width="866" alt="Screenshot 2025-06-17 at 4 25 51 PM" src="https://github.com/user-attachments/assets/768f2445-83bb-4665-bf6d-07c897d41eee" />
     </td>
   </tr>
 </table>
 
-<p>- New create is successfully created.
-<p>- Now, log in to the Admin / Agent Portal as John Doe. Username: john_doe | Password: Password1 </p>
-
 <p>
-<img width="750" alt="TL10" src="https://github.com/user-attachments/assets/49cabd55-cb06-48ba-9f64-3957da5a686a" />
+  - You should see a confirmation that a support ticket request was created.
+<p>
+  - Next, log in to the Admin/Agent Portal as John Doe. Username: john_doe | Password: Password1 
 </p>
 
-<p>- Once logged in, click Tickets -> Open.</p>
-<p>- This will display all the open tickets. Locate the ticket we just created as Karen and open it.</p>
+<p>
+  <img width="890" alt="Screenshot 2025-06-17 at 4 27 13 PM" src="https://github.com/user-attachments/assets/df82fcc7-2a39-48e5-b408-fd318866c461" />
+</p>
+
+<p>
+  - After we are logged in, make sure to navigate to Tickets -> Open.
+</p>
+<p>
+  - We should be able to see all the open tickets. Find the ticket we just created as Karen. Clikc on it to open it.
+</p>
 <br/>
 
 <p>
-<img width="750" alt="TL11" src="https://github.com/user-attachments/assets/cea365f7-922e-4e1a-bb9c-8d2edf2af42b" />
+<img width="994" alt="Screenshot 2025-06-17 at 4 33 58 PM" src="https://github.com/user-attachments/assets/55398d73-3691-4a01-8bc7-19219e817fed" />
 </p>
 
-<p>- Take a minute to review the ticket details. Based off the issue stated by Karen, this seems like a serious problem. </p>
-<p>- In the real world, we would contact Karen via phone, email, or direct message to find out more. We'll pretend we spoke with Karen and confirmed the issue is serious. Next, we'll update the SLA, the Help Topic, and assign the ticket to the correct team.</p>
+<p>
+  - Review the ticket details. Based off the issue stated by Karen, this seems like a serious problem.
+</p>
+<p>
+  - In the real world, we might contact Karen via phone, email, or direct message to find out more from her. Let's pretend we spoke with Karen and confirmed that the issue is serious. Next, let's update the SLA, the Help Topic, and assign the ticket to the correct team.
+</p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="TL13" src="https://github.com/user-attachments/assets/740f2a30-e8c8-479f-a9b3-cdfbd4b6ede4" />
+      <img width="998" alt="Screenshot 2025-06-17 at 4 36 09 PM" src="https://github.com/user-attachments/assets/bf2eb644-6210-410e-8170-4853e835b540" />
     </td>
     <td>
-      <img width="1000" alt=<<img width="745" alt="TL14" src="https://github.com/user-attachments/assets/95062ddf-923b-40e2-89ae-8c100c3d705d" />
+      <img width="996" alt="Screenshot 2025-06-17 at 4 36 43 PM" src="https://github.com/user-attachments/assets/17c43ff2-c477-4fb8-91c7-8b2a24087e62" />
     </td>
   </tr>
 </table>
 
-<p>- Click "Deault SLA". In the pop-up, Select Sev-A and enter a comment as to why you are updtaing the SLA Plan. Click Update. See Figure 12</p>
-<p>- Next, click "Help Topic". Use the dropdown to select "Report a Problem / Business Critical Outage". Comment reason and click Update.</p>
-<p>- Making these changes will help our team process the ticket accordingly and effectively.</p>
+<p>
+  - Click "Deault SLA". In the pop-up, select Sev-A. Write a comment as to why you are updtaing the SLA Plan to Sev-A. Click "Update".
+</p>
+
+<table>
+  <tr>
+    <td>
+      <img width="998" alt="Screenshot 2025-06-17 at 4 37 26 PM" src="https://github.com/user-attachments/assets/6b7dce6f-019f-4e15-94f7-5168fa17319c" />
+    </td>
+    <td>
+      <img width="993" alt="Screenshot 2025-06-17 at 4 41 00 PM" src="https://github.com/user-attachments/assets/9d5f6f1b-08fa-4bbf-8f1a-20f0b54fde6b" />
+    </td>
+  </tr>
+</table>
+
+<p>
+  - We should see a confirmation that SLA PLan was updated successfully. Next, click "Help Topic". Use the dropdown to select "Report a Problem / Business Critical Outage". Comment the reason and click "Update".</p>
+<p>
+  - Making these changes will help our team process the ticket accordingly and effectively.
+</p>
 <br/>
 
 <table>
   <tr>
     <td>
-      <img width="1000" alt="TL13" src="https://github.com/user-attachments/assets/740f2a30-e8c8-479f-a9b3-cdfbd4b6ede4" />
+      <img width="997" alt="Screenshot 2025-06-17 at 4 42 23 PM" src="https://github.com/user-attachments/assets/2be09115-8eda-4741-a64a-ed76c8329e9f" />
     </td>
     <td>
-      <img width="1000" alt=<<img width="745" alt="TL14" src="https://github.com/user-attachments/assets/95062ddf-923b-40e2-89ae-8c100c3d705d" />
+      <img width="988" alt="Screenshot 2025-06-17 at 4 44 48 PM" src="https://github.com/user-attachments/assets/3c38bc23-e206-472d-9796-1dd2ca7b7622" />
     </td>
   </tr>
 </table>
 
-<p>- Now, click "Unassigned" and assign the ticket to Online Banking. Comment and click Assign.
-<p>- Review the changes we made and scroll down. </p>
+<p>
+  - You should see a confirmation saying Help Topic updated successfully. Now, click "Unassigned". Assign the ticket to Online Banking. Comment and click "Assign".
+</p>
+
+<p>
+  <img width="1001" alt="Screenshot 2025-06-17 at 4 53 16 PM" src="https://github.com/user-attachments/assets/4e854207-b36c-4be3-bcee-2e34b134d9b4" />
+</p>
+
+<p>
+  - You should see a confirmation saying that the ticket was assigned to Online Banking successfully. Review the changes we made and scroll down. 
+</p>
 <br/>
 
 <p>
-<img width="750" alt="TL17" src="https://github.com/user-attachments/assets/a0b42e33-c48b-408c-80d5-15b3b64844f5" />
+<img width="998" alt="Screenshot 2025-06-17 at 5 01 07 PM" src="https://github.com/user-attachments/assets/f18a4822-784a-4de1-b3e7-25d1a99a155d" />
 </p>
 
-<p>- osTicket keeps a track record of all the changes in the Ticket Thread.</p> 
-<p>- This helps us track who did what with the ticket and keeps everyone updated. </p>
+<p>
+  - osTicket keeps a track of all the changes in the Ticket Thread. You should see the reasons you commented here.
+</p> 
+<p>
+  - This helps us keep track of who did what with the ticket and keeps everyone updated. 
+</p>
 <br/>
 
 <table>
